@@ -11,7 +11,7 @@ p{
 .pattern{
     position: absolute;
     right: 0;
-    top: -300px;
+    top: -150px;
     z-index: -1;
 
 }
@@ -203,4 +203,26 @@ input{
 .icon-network{
     margin-right: 10px;
 }
+
+@media (max-width: 375px) {
+    *{
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .pattern{
+        position: absolute;
+        right: -700px;
+        top: -150px;
+        z-index: -1;
+    }
+
+    .description-one{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 60px;
+        text-align: center;
+    }
+  }
 
