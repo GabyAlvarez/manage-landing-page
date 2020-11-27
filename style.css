@@ -1,0 +1,206 @@
+*{
+    font-family: "Be Vietnam";
+    font-size: 16px;
+    margin: 0px;
+}
+
+p{
+    color: hsl(227, 12%, 61%);
+}
+
+.pattern{
+    position: absolute;
+    right: 0;
+    top: -300px;
+    z-index: -1;
+
+}
+
+.img-pattern{
+    position: absolute;
+    left: -500px;
+    bottom: -1000px;
+    z-index: -1;
+}
+
+/*Styles header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 80px 0px 80px;
+    
+}
+
+a{
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    padding: 0px 15px 10px 15px; 
+}
+
+/*Priemra seccion*/
+
+h1{
+    color: hsl(228, 39%, 23%);
+    font-size: 40px;
+}
+
+.description-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 80px 0px 80px;
+}
+
+/*Segunda Seccion*/
+
+h2{
+    color: hsl(228, 39%, 23%);
+    font-size: 34px;
+}
+
+.text-list{
+    margin-left: 65px;
+}
+
+span{
+    margin-left: 10px;
+    color: hsl(228, 39%, 23%);
+}
+
+.get{
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-color:  hsl(12, 88%, 59%);
+    height: 40px;
+    width: 150px;
+    color: #FFF;
+}
+
+.number-list{
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border-color:  hsl(12, 88%, 59%);
+    height: 35px;
+    width: 50px;
+    color: #FFF;
+}
+
+/*Tercera seccion*/
+
+.title-comments{
+    text-align: center;
+    margin: 60px;
+}
+
+.card{
+    height: 300px;
+    width: 250px; 
+}
+
+.avatar{
+    width: 65px;
+    height: 65px;
+}
+
+h5{
+    color: hsl(228, 39%, 23%);
+    margin: 20px 0px;
+}
+
+.comments{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.button-comments{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 0px 80px 0px;
+}
+
+.get-comments{
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-color:  hsl(12, 88%, 59%);
+    height: 40px;
+    width: 150px;
+    color: #FFF;
+}
+
+/*Quinta seccion*/
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(12, 88%, 59%);
+    background-image: url(./images/bg-simplify-section-desktop.svg);
+    color: #FFF;
+    height: 150px;
+    padding: 0px 80px;
+}
+
+.exampleTest {
+    fill: hsl(12, 88%, 59%);
+}
+
+.call-get{
+    background-color: #FFF;
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-color:  hsl(12, 88%, 59%);
+    color: hsl(12, 88%, 59%);
+    height: 40px;
+    width: 150px;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(227, 12%, 61%);
+    padding: 20px 80px;
+    height: 200px;
+}
+
+input{
+    background-color: #FFF;
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-color:  #FFF;
+    color: hsl(12, 88%, 59%);
+    height: 30px;
+    margin: 20px 5px;
+}
+
+.go{
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-color:  hsl(12, 88%, 59%);
+    color: #FFF;
+    height: 30px;
+    width: 60px;
+}
+
+.text-footer{
+    color: #FFF;
+}
+
+.networks{
+    margin: 40px 0px 40px 0px;
+}
+
+.icon-network{
+    margin-right: 10px;
+}
+
