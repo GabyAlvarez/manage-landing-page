@@ -29,7 +29,26 @@ p{
     justify-content: space-between;
     align-items: center;
     margin: 40px 80px 0px 80px;
-    
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0;
+    display: flex;
 }
 
 a{
@@ -215,8 +234,6 @@ input{
     *{
         font-size: 14px;
         margin: 0px;
-        /*background-image: url(./images/bg-simplify-section-mobile.svg);
-        background-color: aqua;*/
     }
 
     .pattern{
@@ -241,6 +258,29 @@ input{
     }
 
     /* First section*/
+
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin-left: 0;
+    }
+
+    .header .get{
+        display: none;
+    }
 
     .description-one{
         display: flex;
