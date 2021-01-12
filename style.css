@@ -254,7 +254,7 @@ input{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 20px;
+        /*margin: 20px;*/
     }
 
     /* First section*/
@@ -266,8 +266,18 @@ input{
     .menu{
         position: absolute;
         width: 70%;
-        margin-left: -70%;
+        margin-left: -100%;
         transition: all 0.5s;
+        margin-top: 230px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 30px;
     }
 
     .menu ul{
@@ -385,4 +395,3 @@ input{
         margin: 20px;
     }
   }
-
